@@ -65,7 +65,14 @@ class UNService: NSObject {
     }
     
     func locationRequest() {
+        let content = UNMutableNotificationContent()
+        content.title = "U Have Returned"
+        content.body = "Welcome Back"
+        content.sound = .default()
+        content.badge = 1
         
+        let request = UNNotificationRequest(identifier: "userNotification.location", content: content, trigger: nil)
+        unCenter.add(request)
     }
 }
 
