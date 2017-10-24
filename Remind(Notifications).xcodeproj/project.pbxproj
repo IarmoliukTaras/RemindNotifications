@@ -16,6 +16,7 @@
 		9DE7F8F21F9F34B500DF1CC5 /* TimeAlert.png in Resources */ = {isa = PBXBuildFile; fileRef = 9DE7F8EF1F9F34B500DF1CC5 /* TimeAlert.png */; };
 		9DE7F8F31F9F34B500DF1CC5 /* LocationAlert.png in Resources */ = {isa = PBXBuildFile; fileRef = 9DE7F8F01F9F34B500DF1CC5 /* LocationAlert.png */; };
 		9DE7F8F51F9F382300DF1CC5 /* UNService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DE7F8F41F9F382300DF1CC5 /* UNService.swift */; };
+		9DE7F8F71F9F62F400DF1CC5 /* AlertService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DE7F8F61F9F62F400DF1CC5 /* AlertService.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +31,7 @@
 		9DE7F8EF1F9F34B500DF1CC5 /* TimeAlert.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = TimeAlert.png; sourceTree = "<group>"; };
 		9DE7F8F01F9F34B500DF1CC5 /* LocationAlert.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = LocationAlert.png; sourceTree = "<group>"; };
 		9DE7F8F41F9F382300DF1CC5 /* UNService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UNService.swift; sourceTree = "<group>"; };
+		9DE7F8F61F9F62F400DF1CC5 /* AlertService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertService.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,6 +77,7 @@
 			isa = PBXGroup;
 			children = (
 				9DE7F8F41F9F382300DF1CC5 /* UNService.swift */,
+				9DE7F8F61F9F62F400DF1CC5 /* AlertService.swift */,
 			);
 			path = Service;
 			sourceTree = "<group>";
@@ -193,6 +196,7 @@
 			files = (
 				9DE7F8F51F9F382300DF1CC5 /* UNService.swift in Sources */,
 				9DE7F8D81F9F2FF300DF1CC5 /* ViewController.swift in Sources */,
+				9DE7F8F71F9F62F400DF1CC5 /* AlertService.swift in Sources */,
 				9DE7F8D61F9F2FF300DF1CC5 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
