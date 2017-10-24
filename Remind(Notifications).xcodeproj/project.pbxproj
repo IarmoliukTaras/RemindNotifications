@@ -12,6 +12,9 @@
 		9DE7F8DB1F9F2FF300DF1CC5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9DE7F8D91F9F2FF300DF1CC5 /* Main.storyboard */; };
 		9DE7F8DD1F9F2FF300DF1CC5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9DE7F8DC1F9F2FF300DF1CC5 /* Assets.xcassets */; };
 		9DE7F8E01F9F2FF300DF1CC5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9DE7F8DE1F9F2FF300DF1CC5 /* LaunchScreen.storyboard */; };
+		9DE7F8F11F9F34B500DF1CC5 /* DateAlert.png in Resources */ = {isa = PBXBuildFile; fileRef = 9DE7F8EE1F9F34B500DF1CC5 /* DateAlert.png */; };
+		9DE7F8F21F9F34B500DF1CC5 /* TimeAlert.png in Resources */ = {isa = PBXBuildFile; fileRef = 9DE7F8EF1F9F34B500DF1CC5 /* TimeAlert.png */; };
+		9DE7F8F31F9F34B500DF1CC5 /* LocationAlert.png in Resources */ = {isa = PBXBuildFile; fileRef = 9DE7F8F01F9F34B500DF1CC5 /* LocationAlert.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +25,9 @@
 		9DE7F8DC1F9F2FF300DF1CC5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9DE7F8DF1F9F2FF300DF1CC5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9DE7F8E11F9F2FF300DF1CC5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9DE7F8EE1F9F34B500DF1CC5 /* DateAlert.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = DateAlert.png; sourceTree = "<group>"; };
+		9DE7F8EF1F9F34B500DF1CC5 /* TimeAlert.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = TimeAlert.png; sourceTree = "<group>"; };
+		9DE7F8F01F9F34B500DF1CC5 /* LocationAlert.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = LocationAlert.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,14 +60,57 @@
 		9DE7F8D41F9F2FF300DF1CC5 /* Remind(Notifications) */ = {
 			isa = PBXGroup;
 			children = (
-				9DE7F8D51F9F2FF300DF1CC5 /* AppDelegate.swift */,
-				9DE7F8D71F9F2FF300DF1CC5 /* ViewController.swift */,
-				9DE7F8D91F9F2FF300DF1CC5 /* Main.storyboard */,
-				9DE7F8DC1F9F2FF300DF1CC5 /* Assets.xcassets */,
-				9DE7F8DE1F9F2FF300DF1CC5 /* LaunchScreen.storyboard */,
 				9DE7F8E11F9F2FF300DF1CC5 /* Info.plist */,
+				9DE7F8EA1F9F30C500DF1CC5 /* Model */,
+				9DE7F8E91F9F30BF00DF1CC5 /* View */,
+				9DE7F8E81F9F30B400DF1CC5 /* Controller */,
+				9DE7F8E71F9F30AC00DF1CC5 /* Service */,
 			);
 			path = "Remind(Notifications)";
+			sourceTree = "<group>";
+		};
+		9DE7F8E71F9F30AC00DF1CC5 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		9DE7F8E81F9F30B400DF1CC5 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				9DE7F8D51F9F2FF300DF1CC5 /* AppDelegate.swift */,
+				9DE7F8D71F9F2FF300DF1CC5 /* ViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		9DE7F8E91F9F30BF00DF1CC5 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				9DE7F8ED1F9F347900DF1CC5 /* NotificationAssets */,
+				9DE7F8DC1F9F2FF300DF1CC5 /* Assets.xcassets */,
+				9DE7F8D91F9F2FF300DF1CC5 /* Main.storyboard */,
+				9DE7F8DE1F9F2FF300DF1CC5 /* LaunchScreen.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		9DE7F8EA1F9F30C500DF1CC5 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		9DE7F8ED1F9F347900DF1CC5 /* NotificationAssets */ = {
+			isa = PBXGroup;
+			children = (
+				9DE7F8EE1F9F34B500DF1CC5 /* DateAlert.png */,
+				9DE7F8F01F9F34B500DF1CC5 /* LocationAlert.png */,
+				9DE7F8EF1F9F34B500DF1CC5 /* TimeAlert.png */,
+			);
+			path = NotificationAssets;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,6 +174,9 @@
 			files = (
 				9DE7F8E01F9F2FF300DF1CC5 /* LaunchScreen.storyboard in Resources */,
 				9DE7F8DD1F9F2FF300DF1CC5 /* Assets.xcassets in Resources */,
+				9DE7F8F21F9F34B500DF1CC5 /* TimeAlert.png in Resources */,
+				9DE7F8F31F9F34B500DF1CC5 /* LocationAlert.png in Resources */,
+				9DE7F8F11F9F34B500DF1CC5 /* DateAlert.png in Resources */,
 				9DE7F8DB1F9F2FF300DF1CC5 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
